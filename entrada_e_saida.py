@@ -11,3 +11,11 @@ def soma():
     print("A soma dos números é:", resultado)
 
 soma()
+
+def multiplicacao():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    resultado = num1 * num2
+    print("O resultado da multiplicação é:", resultado)
+
+multiplicacao()
